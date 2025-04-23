@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "todo",  # Add this line to register the todo app
+    "todo", 
     "corsheaders",
 ]
 
@@ -57,7 +57,6 @@ ROOT_URLCONF = "todoproj.urls"
 CORS_ALLOW_ALL_ORIGINS = True
 
 ALLOWED_HOSTS = ['https://native-todo-1m09.onrender.com']
-
 
 TEMPLATES = [
     {
