@@ -55,7 +55,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "todoproj.urls"
 CORS_ALLOW_ALL_ORIGINS = True
-ALLOWED_HOSTS = ['https://native-todo-1m09.onrender.com']
+ALLOWED_HOSTS = ['native-todo-1m09.onrender.com', 'localhost', '127.0.0.1']
 
 TEMPLATES = [
     {
